@@ -63,3 +63,5 @@ HERE YOUR CONTENT
 ```
 Make sure the ion-tab has prop `tab` pointing to the name of the route. So in this case, the route could be `whatever/whenever/tabs/test2`.
 
+## Migration from legacy
+See https://github.com/Tommertom/svelte-ionic-npm/blob/main/CHANGELOG.md#05350536
