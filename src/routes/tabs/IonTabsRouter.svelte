@@ -2,7 +2,6 @@
 	import { onMount } from 'svelte';
 	import { page } from '$app/stores';
 
-	import * as ionIcons from 'ionicons/icons';
 	import { goto } from '$app/navigation';
 
 	export let ionTabsDidChange = () => {};

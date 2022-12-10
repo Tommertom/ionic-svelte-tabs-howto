@@ -1,14 +1,18 @@
 # HOW-TO Ionic Svelte - Ionic Tabs
-
 This repo shows how to implement Ionic Tabs in SvelteKit. 
 
 ## Why this HowTo
 Implementing Ionic Tabs requires deep integration with the routing system. That is why this HowTo uses SvelteKit as guide. The challenge lies in the fact that we like to use the router paths to navigate to various tabs.
 
+## No SvelteKit -> no worries
+If you don't use SvelteKit but Svelte with Vite, then please use IonTabsLegacy.svelte and the implementation in https://github.com/Tommertom/svelte-ionic-app/tree/main/src/routes/components/tabs/%5Btab%5D
+
+Or copy IonTab.svelte from `ionic-svelte` and adapt to your liking (when your router supports layout structures, like Routify, then this should be doable). Future support for non-Kit is something I am considering.
+
 ## Codesandbox
 Want to dive into an example? Use the link below to the code-sandbox. After opening the link, please pop-up the render window to see the results.
 
-NOTE - not working due to Vite upgrade
+NOTE - not working due to Vite4 not yet available for codesandbox
 https://codesandbox.io/s/github/Tommertom/ionic-svelte-tabs-howto
 
 ## Steps to implement 
@@ -25,7 +29,7 @@ Some pointers:
 API for the `+layout.svelte` file:
 ```
 <script lang="ts">
-	import IonTabs from './IonTabsRouter.svelte';
+	import IonTabs from './IonTabs.svelte';
 
 	import { videocam, pin } from 'ionicons/icons';
 	import { onMount } from 'svelte';
