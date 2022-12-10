@@ -1,5 +1,5 @@
 <script lang="ts">
-	import IonTabs from './IonTabsRouter.svelte';
+	import { IonTabs } from 'ionic-svelte';
 
 	import { videocam, pin } from 'ionicons/icons';
 	import { onMount } from 'svelte';
