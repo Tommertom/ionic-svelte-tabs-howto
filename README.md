@@ -15,6 +15,9 @@ Want to dive into an example? Use the link below to the code-sandbox. After open
 NOTE - not working due to Vite4 not yet available for codesandbox
 https://codesandbox.io/s/github/Tommertom/ionic-svelte-tabs-howto
 
+So, you can also clone this repo:
+`npx degit https://github.com/Tommertom/ionic-svelte-tabs-howto ionic-tabs`
+
 ## Steps to implement 
 1. The IonTabs component needs to placed in a `+layout.svelte` 
 2. Make sure it has a `<slot/>` in between, so the pages can be rendered in that router outlet
