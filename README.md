@@ -12,8 +12,7 @@ Or copy IonTab.svelte from `ionic-svelte` and adapt to your liking (when your ro
 ## Codesandbox
 Want to dive into an example? Use the link below to the code-sandbox. After opening the link, please pop-up the render window to see the results.
 
-NOTE - not working due to Vite4 not yet available for codesandbox
-https://codesandbox.io/s/github/Tommertom/ionic-svelte-tabs-howto
+https://stackblitz.com/github/Tommertom/ionic-svelte-tabs-howto
 
 So, you can also clone this repo:
 `npx degit https://github.com/Tommertom/ionic-svelte-tabs-howto ionic-tabs`
