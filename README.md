@@ -9,7 +9,7 @@ If you don't use SvelteKit but Svelte with Vite, then please use IonTabsLegacy.s
 
 Or copy IonTab.svelte from `ionic-svelte` and adapt to your liking (when your router supports layout structures, like Routify, then this should be doable). Future support for non-Kit is something I am considering.
 
-## Codesandbox
+## Stackblitz
 Want to dive into an example? Use the link below to the code-sandbox. After opening the link, please pop-up the render window to see the results.
 
 https://stackblitz.com/github/Tommertom/ionic-svelte-tabs-howto
